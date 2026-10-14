@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Local browser verification artifacts
+.playwright-cli/
+output/playwright/
+
+# Local design review artifacts
+.taste-skill/
+
+# Local notes, experiments and archived exports
+.local/
